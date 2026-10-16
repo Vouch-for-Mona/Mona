@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Browser tab title -->
+  <title>Mona – Project Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <img src="images/mona-fake.jpg" alt="The Mona Lisa in a gold frame with a red FAKE stamp" class="hero-img">
+    <div class="hero-text">
+      <!-- Title -->
+      <h1>MONA</h1>
+      <!-- One-line subtitle -->
+      <p class="subtitle">Mark of Natural Authenticity.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Project Description -->
+    <section>
+      <h2>Project Description</h2>
+      <p>
+        Aim of our project is to develop a photograph verification application that allows people to take photographs which anyone can later verify were taken of a real, three-dimensional scene, rather than of a screen, a print, or a model built to deceive the camera.
+
+        The system consists of three main parts: <br>
+        1) Scene verification: At capture time, the application combines the image with additional sensor measurements, such as depth and possibly the device's motion to determine whether a real 3D scene is in front of the camera. The decision relies primarily on physics-based (non-ML) checks as well as some possible model predictions, and (possibly) strengthened by randomized challenges that make known attacks such as screen recapture, printed images and injected depth data difficult to carry out.
+        <br>
+        2) Signing: A capture that passes verification is signed, together with its evidence, by a private key kept in the device's secure hardware. Any later alteration of the photo or its evidence invalidates the signature, so tampering is always detectable.
+        <br>
+        3) Verifiable editing: Simple transformations, such as rotations, cropping, or blurring can be applied to a verified photo while preserving its verifiability, (possibly) using zero-knowledge proofs where privacy requires it.
+        <br>
+        The final product provides verifiable evidence that a photograph was captured from a real scene, which anyone can check without having to trust the photographer or the editing software.
+      </p>
+    </section>
+
+    <!-- Project Members -->
+    <section>
+      <h2>Project Members</h2>
+      <ul class="people">
+        <li>
+          <span class="name">Eren Özilgili</span>
+          <span class="ID">22303525</span>
+        </li>
+        <li>
+          <span class="name">Bera Nur Kabakbaş</span>
+          <span class="ID">22302855</span>
+        </li>
+        <li>
+          <span class="name">Berkay Demirçin</span>
+          <span class="ID">22303482</span>
+        </li>
+        <li>
+          <span class="name">Erkam Uysal</span>
+          <span class="ID">22302205</span>
+        </li>
+        <li>
+          <span class="name">Berra Alkış</span>
+          <span class="ID">22302527</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Supervisor -->
+    <section>
+      <h2>Supervisor & Innovation Expert</h2>
+      <ul class="people">
+        <li>
+          <span class="name">Abdullah Talayhan</span>
+        </li>
+      </ul>
+    </section>
+    
+  </main>
+
+  <footer>
+    <!-- Footer text -->
+    <p>© CS491-492 (2026/2027). Project "Mona"</p>
+  </footer>
+
+</body>
+</html>
